@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="79fe397d-2a90-47fb-ac07-c1d1ec474884" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Spring/LearningSpring/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/LearningSpring/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/LearningSpring/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/LearningSpring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/LearningSpring/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring/LearningSpring/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Entity/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Entity/DieselEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Entity/ExamplesOfRigidAndLooseCoupling" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Entity/PetrolEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day2/untitled2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity/CarDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/CarDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2/Hibernate_case_Study/src/main/java/org/example/entity/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day2/Hibernate_case_Study/src/main/java/org/example/entity/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2/Hibernate_case_Study/src/main/java/org/example/main/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day2/Hibernate_case_Study/src/main/java/org/example/main/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day2/Hibernate_case_Study/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day2/Hibernate_case_Study/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="39y4ls7yeakCE982YPQL1B8jRzC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/babal/Dropbox/PC/Desktop/AdvanceJava/UnderStandindEnitny_Core_java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79fe397d-2a90-47fb-ac07-c1d1ec474884" name="Changes" comment="" />
+      <created>1771655130977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771655130977</updated>
+      <workItem from="1771655132118" duration="2632000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
