@@ -6,6 +6,8 @@ import com.example.BookStoreRest.entity.Book;
 import com.example.BookStoreRest.repository.BookRepository;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -23,6 +25,7 @@ public class BookService {
     private final BookRepository bookRepository;
     private final ModelMapper modelMapper;
 
+    @CacheEvict(value = "books",allEntries = true)
     public BookDto createBook(BookDto bookDto){
         Book book = modelMapper.map(bookDto, Book.class);//dto to entity
         Book savedBook = bookRepository.save(book);// save book data
@@ -61,7 +64,10 @@ public class BookService {
                 .toList();
     }
 
+    @Cacheable(value = "books", key="#page +'_'+ #size + '_'+ #sortBy+'_'+ #direction")
     public PageResponse<BookDto> getBooks(int page,int size,String sortBy,String direction){
+
+        System.out.println("DB CALL HAPPENING!!!");
         Sort sort = direction.equalsIgnoreCase("desc")
                 ?Sort.by(sortBy).descending()
                 :Sort.by(sortBy).ascending();
